@@ -10,7 +10,8 @@ var mailru_favicon_count = {
 
 	updateFavicon: function() {
 		var req = new XMLHttpRequest();
-		req.open('GET', 'http://e.mail.ru/cgi-bin/mailcnt?json=1', true);
+		var time = new Date().getTime();
+		req.open('GET', 'http://e.mail.ru/cgi-bin/mailcnt?json=1&' + time, true);
 		req.onreadystatechange = function () {
 			if (req.readyState == 4 && req.status == 200) {
 				var mail_count = /NewMailCNT:"(\d+)"/.exec(req.responseText);
