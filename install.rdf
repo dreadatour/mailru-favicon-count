@@ -4,7 +4,7 @@
 		<em:id>favicon-count@mail.ru</em:id>
 		<em:type>2</em:type>
 		<em:name>Mail.Ru Favicon Count</em:name>
-		<em:version>0.1.0</em:version>
+		<em:version>0.1.1</em:version>
 		<em:creator>Vladimir Rudnyh</em:creator>
 		<em:contributor></em:contributor>
 		<em:description>Show unreaded emails count in mail.ru tabs favicon</em:description>
@@ -15,7 +15,7 @@
 				<em:locale>ru-RU</em:locale>
 				<em:name>Mail.Ru Favicon Count</em:name>
 				<em:creator>Владимир Рудных</em:creator>
-				<em:description>Отображение количества непрочитанных писем в иконке вкладок mail.ru</em:description>
+				<em:description>Отображение количества непрочитанных писем в иконках вкладок mail.ru</em:description>
 			</Description>
 		</em:localized>
 		<em:targetApplication>
