@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://mailru-favicon-count/locale/about.dtd">
+
+<dialog title="&about; Mail.Ru Favicon Count" orient="vertical" autostretch="always" onload="sizeToContent()" buttons="accept" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <groupbox align="center" orient="horizontal">
+    <vbox>
+      <text value="Mail.Ru Favicon Count" style="font-weight: bold; font-size: x-large;"/>
+      <text value="&version; 0.1.0"/>
+      <separator class="thin"/>
+      <text value="&createdBy;" style="font-weight: bold;"/>
+      <text value="&createdByName;"/>
+      <separator class="thin"/>
+      <text value="&homepage;" style="font-weight: bold;"/>
+      <text value="http://firefox.dreadatour.ru/mailru-favicon-count/"/>
+      <separator class="thin"/>
+    </vbox>
+  </groupbox>
+</dialog>

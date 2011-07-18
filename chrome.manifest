@@ -1,0 +1,6 @@
+content   mailru-favicon-count                 chrome/content/
+skin      mailru-favicon-count   classic/1.0   chrome/skin/
+locale    mailru-favicon-count   en-US         chrome/locale/en-US/
+locale    mailru-favicon-count   ru-RU         chrome/locale/ru-RU/
+
+overlay   chrome://browser/content/browser.xul   chrome://mailru-favicon-count/content/overlay.xul

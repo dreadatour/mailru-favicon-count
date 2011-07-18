@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay SYSTEM "chrome://mailru-favicon-count/locale/overlay.dtd">
+<overlay id="mailru-favicon-count-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script src="overlay.js"/>
+	<!--stringbundleset id="stringbundleset">
+		<stringbundle id="mailru-favicon-count-strings" src="chrome://mailru-favicon-count/locale/overlay.properties"/>
+	</stringbundleset-->
+</overlay>
