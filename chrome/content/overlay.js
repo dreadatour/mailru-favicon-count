@@ -1,5 +1,6 @@
 var mailru_favicon_count = {
 	updateInterval: 60,
+	updateTimer: null,
 
 	bind: function(aFunc, aObj) {
 		if (!aObj) aObj = this;
@@ -34,7 +35,6 @@ var mailru_favicon_count = {
 			}
 		};
 		req.send(null);
-		setTimeout(this.updateFavicon, this.updateInterval * 1000);
 	},
 
 	onPageChange: function(aEvent) {
@@ -46,6 +46,7 @@ var mailru_favicon_count = {
 
 	init: function() {
 		gBrowser.addEventListener("load", this.bind(this.onPageChange), true);
+		this.updateTimer = setInterval(this.updateFavicon, this.updateInterval * 1000);
 		this.updateFavicon();
 	}
 };

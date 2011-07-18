@@ -50,6 +50,21 @@
           </RDF:Description>
         </RDF:li>
 
+        <RDF:li>
+          <RDF:Description>
+            <em:version>0.1.3</em:version>
+            <em:targetApplication>
+              <RDF:Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>3.5</em:minVersion>
+                <em:maxVersion>6.0.*</em:maxVersion>
+                <em:updateLink>http://firefox.dreadatour.ru/mailru-favicon-count/mailru-favicon-count-0.1.3.xpi</em:updateLink>
+                <em:updateHash>sha1:ce559d9c934ce5d97779da3c98b963c37dca09f4</em:updateHash>
+              </RDF:Description>
+            </em:targetApplication>
+          </RDF:Description>
+        </RDF:li>
+
       </RDF:Seq>
     </em:updates>
   </RDF:Description>
